@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+.venv-1/
+.venv-2/
+venv/
+env/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Qodo
+.qodo/
+
+# Documentation artifacts
+*.docx
+*.docx.md
+
+# Notebook files (not needed for the deployed app)
+*.ipynb
+
+# Backup files
+*_backup.py
+
+# Model builder (not used by app)
+model_builder_predictor.joblib
+model_builder_comparison.png
+strategy_comparison.png
+data_scientist_identity_model.joblib
+create_word_doc.py
